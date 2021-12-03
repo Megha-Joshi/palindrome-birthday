@@ -5,6 +5,10 @@ body {
 	background-color: whitesmoke;
 	font-family: 'Balsamiq Sans', cursive;
 	font-family: 'Kalam', cursive;
+	background-image: url("/images/palindrome.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 
 }
@@ -63,7 +67,7 @@ h1 {
 }
 
 .footer {
-	background-color: #9776A9;
+	background-color: #430168;
 	margin-bottom: 0px;
 	text-align: center;
 	padding: 0.5rem;

@@ -20,7 +20,7 @@ function clickHandler(e) {
 			result.innerText = "Yayyy, your birthday is a palindrome!🎉🎉";
 		} else {
 			var [count, nextDate] = nextPalinDate(date);
-			result.innerHTML = "No😢 not a palindrome, the next palindrome date is " + nextDate.day + "-" + nextDate.month + "-" + nextDate.year + " and you missed it by only " + count + " days😶😶";
+			result.innerHTML = "No..not a palindrome, the next palindrome date is " + nextDate.day + "-" + nextDate.month + "-" + nextDate.year + " and you missed it by only " + count + " days😶";
 		}
 
 	}
