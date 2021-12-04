@@ -18,12 +18,16 @@ function clickHandler(e) {
 
 		if (isPalindrome) {
 			result.innerText = "Yayyy, your birthday is a palindrome!🎉🎉";
-		} else {
+		}else {
 			var [count, nextDate] = nextPalinDate(date);
 			result.innerHTML = "No..not a palindrome, the next palindrome date is " + nextDate.day + "-" + nextDate.month + "-" + nextDate.year + " and you missed it by only " + count + " days😶";
 		}
 
 	}
+	else{
+		result.innerText = "Please enter the birthdate!!";
+	}
+
 }
 
 function stringReverse(str) {
